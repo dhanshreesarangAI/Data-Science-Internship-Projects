@@ -1,43 +1,48 @@
-# Customer Churn Prediction 📊
+# Project 1 — Customer Churn Prediction 📊
 
-## Project Overview
-Predicting which customers are likely to leave a telecom company
-using Machine Learning models.
+## View Notebook
+👉 [Open Notebook in NBViewer]([https://nbviewer.org/github/dhanshreesarangAI/Data-Science-Internship-Projects/blob/main/Project-1-Customer-Churn-Prediction/Customer_Churn_Prediction.ipynb)
+
+## Problem Statement
+Can we predict which customers are likely to stop 
+using a telecom service based on their behavior?
 
 ## Dataset
-- IBM Telco Customer Churn Dataset
-- 7043 customers, 50 columns
+- Name: IBM Telco Customer Churn
 - Source: Kaggle
+- Rows: 7043 customers
+- Columns: 50
 
-## Tools & Libraries Used
+## Tools Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Google Colab
 
 ## Steps Performed
-1. Data Loading & Exploration
-2. Data Cleaning & Preprocessing
-3. Exploratory Data Analysis (EDA)
-4. Feature Selection & Encoding
-5. Model Building
-6. Model Evaluation
+1. Data Loading
+2. Data Cleaning
+3. Exploratory Data Analysis
+4. Feature Encoding
+5. Train Test Split
+6. Model Building
+7. Model Evaluation
 
-## Models Used
+## Models & Results
 | Model | Accuracy | ROC-AUC |
 |-------|----------|---------|
 | Logistic Regression | 81.1% | 0.870 |
 | Decision Tree | 80.6% | 0.854 |
 
 ## Key Findings
-- Month-to-month contract customers churn 43%
-- New customers (less than 12 months) churn more
-- Higher monthly charges = higher churn risk
-- Customers without tech support churn more
+- Month-to-month customers churn 43%
+- New customers churn more in first 12 months
+- High monthly charges increase churn risk
+- No tech support = more churn
 
 ## Conclusion
-Logistic Regression performed best with 81.1% accuracy.
-Tenure, Monthly Charge and Contract Type are the most
-important factors in predicting churn.
+Logistic Regression performed best with 81.1% 
+accuracy and 0.870 ROC-AUC score
