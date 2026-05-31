@@ -1,7 +1,7 @@
 # Project 1 — Customer Churn Prediction 📊
 
 ## View Notebook
-👉 [Open Notebook in NBViewer]([https://nbviewer.org/github/dhanshreesarangAI/Data-Science-Internship-Projects/blob/main/Project-1-Customer-Churn-Prediction/Customer_Churn_Prediction.ipynb)
+👉 [Open Notebook in NBViewer](https://nbviewer.org/github/dhanshreesarangAI/Data-Science-Internship-Projects/blob/main/Project-1-Customer-Churn-Prediction/Customer_Churn_Prediction.ipynb)  
 
 ## Problem Statement
 Can we predict which customers are likely to stop 
